@@ -1,0 +1,192 @@
+header{
+    position:relative;
+    background-image: url(plancuisine.jpg);
+    background-attachment: fixed;
+    height:250px;
+    width:100%;
+    color: whitesmoke;
+    line-height:250px;
+    text-align: center;
+    border:groove #faf9f8bb;
+    border-radius:10px;
+}
+
+body{
+    background-color: #f1ebebfd;
+    font-size: medium;
+}
+
+nav,main{
+    text-align: justify;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+main{
+    display:inline-blox;
+    vertical-align:top;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;;
+    background-color:  #8a92d8bb;
+    border:groove #bec3ecbb;
+    border-radius:10px;
+
+}
+
+.explication{
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+h3{
+    font-size: x-large;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.plat{
+    position: relative;
+}
+
+.photoingredient{
+    float:left;
+    margin-left: 10px;
+}
+
+.textphoto{
+    text-align:center;
+    position:absolute;
+    top:5%;
+    left:22%;
+    transform: translate(-50%, 50%);
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: circle;
+    text-align: left;
+}
+
+.infotemps table{
+    position: absolute;
+    top:20%;
+    left:70%;
+    text-align: center;
+    padding:20px;
+}
+
+#phototaboulet{
+    height:200px;
+    width:200px;
+}
+
+ol{
+    font-size: larger;
+    list-style-type: decimal;
+}
+
+.dessert{
+    position: relative;
+}
+
+.dessert .photoingredient{
+    float:left;
+    margin-left: 10px;
+}
+
+.dessert .textphoto{
+    text-align:center;
+    position:absolute;
+    top:10%;
+    left:22%;
+    transform: translate(-50%, 50%);
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+#photomadeleine{
+    width:200px;
+    height:150px;
+}
+
+
+.repas{
+    position: relative;
+}
+
+.repas .photoingredient{
+    float:left;
+    margin-left: 10px;
+}
+
+.repas .textphoto{
+    text-align:center;
+    position:absolute;
+    top:10%;
+    left:25%;
+    transform: translate(-50%, 50%);
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+}
+main, div{
+    text-align:justify;
+}
+
+
+footer{
+    display: inline-block;
+    bottom: 10px;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
+
+footer a{
+    color:black;
+    vertical-align: top;
+}
+
+footer p{
+    float:left;
+    margin-right: 10px;
+    
+}
+
+footer form{
+    float: right
+}
+.img-contact{
+    height:30px;
+    width:30px;
+}

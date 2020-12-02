@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Douceurs Revisitées</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script language="javascript" type="text/javascript" src="projet.js"></script>
+        
+    </head>
+    <body>
+        <header >
+            <h1>Douceurs Revisitées</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="Projet.html">Accueil</a></li>
+                <li><a href="#">Recettes pour tous</a>
+                </li>
+                <li><a href="#">Inscription</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            
+            <form  id="formulaire" name="cuisto" method="post"  > 
+                <fieldset>
+                    <legend>Quel cuisinier êtes vous?</legend>
+                        
+                            <input type="radio" name="cuisto" value="petit budget" id="budget">
+                            <label for="petit budget">Cuisinier à petit budget</label>
+                            <br>
+                            <input type="radio" name="cuisto" value="Une cuisine rapide" id="rapide">
+                            <label for="Une Cuisine rapide">Speedo Cuistos </label>
+                            <br>
+                            <input type="radio" name="cuisto" value="Cuisine du monde" >
+                            <label for="Cuisine du monde">Cuisinier du monde</label>
+                </fieldset>
+            </form>
+        </aside>
+
+        <main>
+            <p><figure class="figure" align="right">
+                <img class="image-acceuil" src="téléchargement.jpg" alt="Image d'une omelette aux légumes">
+                </figure>
+                Voilà ça y est vous avez trouvé notre site internet le fameux qui va révolutioner votre vie!<br>
+                On en dit pas ça pour vendre les mérites de notre site pas dutout... Il est là votre outil pour créer
+                tout vos future petits plats qui vont sentir bon et vous rappeler des souvenir d'enfance ou vour 
+                rabibocher avec la cuisine!<br>
+                Et oui vous avez bien compris ici on va parler légumes fruits et surtout passsion. Pour vous montrer 
+                qu'il est possible de faire des recettes rapide et efficace avec des petits budget. On vous laisse choisir 
+                quel type de cuisto vous êtes et découvrer notre planning hebdomadaire chaque semaine!<br>
+                Il vous suffit de choisir une des possibilités puis cliquer sur soumettre et voilà le tour et jouer!
+                </p>
+        </main>
+        
+        <h3><u>Recette du jour</u></h3>
+        <section class="scroll">
+             <!--réessayer de faire ça mais dans un tableau ça peut marcher peut être-->
+            <table>
+                <tr>
+                    <td>
+                        <div class="photocuisine">
+                            <a href="recetteun.html"><img src="soupe.jpg" alt="soupe"></img></a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="photocuisine">
+                            <a href="recettedeux.html"><img src="rosedessables.jpg" alt="rose des sables"></img></a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="photocuisine">
+                            <a href="#"><img src="soupe.jpg" alt="photo3"></img></a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="photocuisine">
+                            <a href="#"><img src="soupe.jpg" alt="photo4"></img></a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="photocuisine">
+                            <a href="#"><img src="soupe.jpg" alt="photo5"></img></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <div >
+                        <p>Soupe poireaux pomme de terre</p></div>
+                        <div><p>Rapide simple et efficace vous pouvez vous régaler tout en vous réchauffant!</p></div>
+                    </td>
+                    <td >
+                        <div >
+                        <p>Rose des sables</p></div>
+                        <div>
+                            <p>
+                                Une envie de sucrée?<br>
+                                Pourquoi pas essayer c'est petits gateaux succulents et rapide à faire. 
+                            </p>
+                        </div>
+                    </td>
+                    <td >
+                        <div>
+                        <p>Recette3</p></div>
+                    </td>
+                    <td>
+                        <div>
+                        <p>Recette4</p></div>
+                    </td>
+                    <td>
+                        <div>
+                        <p>Recette5</p></div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+        
+        <footer>
+            <p> Nous contacter
+            <figure>
+                <img class="img-contact" src="logoinsta.png" alt="logo instagram"><a href="https://instagram.com/douceurs_revisitees?igshid=114m9x6j4ryuk" target="_blank">@douceurs_revisitees</a>
+            </figure>
+            <form name="subscribe" method="post" >
+                subscribe at the newsletter<input type="text" name="Subscribe" placeholder="email" required id="email">
+                <input type="submit" value="Subscribe" onclick="validemail()" >
+            </form>
+            </p>
+        </footer>
+    </body>
+</html>
